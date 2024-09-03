@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Estudos de Iframe</title>
-</head>
-<body>
+    <style>
+        p#primeiro{
+            padding-bottom: 100px;
+        }
+
+        iframe.Tabela{
+            width: 600px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+  </head>
+  <body>
     <!--Tamanho Padrão 300x150-->
-    <h1>
-        Testando Usos de Iframe
-    </h1>
-    <p>
-        Acessando o <iframe src="https://guidoferrariisotton.github.io/projeto-cordel/" frameborder="0" height="300" scolling="no">
-            <a href="https://guidoferrariisotton.github.io/projeto-cordel/">Seu navegador não é compatível</a> </iframe>  <a href="https://guidoferrariisotton.github.io/projeto-cordel/">meu site</a>
+    <h1>Testando Usos de Iframe</h1>
+    <p id="primeiro">
+      Acessando o
+      <iframe
+        src="https://guidoferrariisotton.github.io/projeto-cordel/"
+        frameborder="0"
+        height="300"
+        scolling="no"
+      >
+        <a href="https://guidoferrariisotton.github.io/projeto-cordel/"
+          >Seu navegador não é compatível</a
+        >
+      </iframe>
+      <a href="https://guidoferrariisotton.github.io/projeto-cordel/"
+        >meu site</a
+      >
     </p>
-    
-</body>
+
+    <p class="iframe2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut suscipit sapiente voluptate nostrum excepturi ifrest et voluptas maiores repudiandae obcaecati numquam, rerum, quaerat iste sint optio! Nesciunt, deleniti! Ut, itaque.
+        lore
+      </p>
+      <iframe src="siteexibição.html" frameborder="0" class="Tabela"></iframe>
+      <p class="iframe2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut suscipit sapiente voluptate nostrum excepturi est et voluptas maiores repudiandae obcaecati numquam, rerum, quaerat iste sint optio! Nesciunt, deleniti! Ut, itaque.
+        lore
+      </p>
+  </body>
 </html>

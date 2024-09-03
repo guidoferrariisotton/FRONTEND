@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <a href="#" onclick="clicou()"><h1>Meu Site principal</h1></a>
+    <div id="saida"></div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est labore exercitationem blanditiis expedita minus tempora. Cumque quisquam omnis suscipit hic. Excepturi voluptatibus amet quo eius quam ipsa assumenda, consectetur doloribus?</p>
+    <iframe src="formulario.html" sandbox="sandbox"</iframe><!--allow-sameorigin-allow-forms-->referrerpolicy="no-referer"></iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quaerat obcaecati dolore autem id rerum veniam enim aspernatur natus vitae, corporis ipsam ratione quae deserunt beatae sunt, a adipisci harum.</p>
+
+    <script>
+        function clicou(){
+            s = window.document.getElementById("saida")
+            s.innerHTML += '<p>Você clicou!</p>'
+        }
+    </script>
+</body>
+</html>
